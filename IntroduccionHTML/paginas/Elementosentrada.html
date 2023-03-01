@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parrafós</title>
+</head>
+<body style="background-color:plum;">
+    <div id="encabezado"style="background-color:cyan; text-align: center;">
+        <h1 style="text-shadow: 0cap;"><em>Tutorial HTML</em></h1>
+    </div>
+    <hr>
+    <div style="background-color:rosybrown; text-align: center;">
+        <br>
+        <a href="Texto.html" class="encabezado" style="text-decoration: none; color: black;">Formato de Texto</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="Imagenes.html" class="encabezado" style="text-decoration: none; color: black;">Imágenes</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="Tablas.html" class="encabezado" style="text-decoration: none; color: black;">Tablas</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="Listas.html" class="encabezado" style="text-decoration: none; color: black;">Listas</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="Formularios.html" class="encabezado" style="text-decoration: none; color: black;">Formularios</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="Media.html" class="encabezado" style="text-decoration: none; color: black;">Media</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <br>
+        <br>
+    </div> 
+    <hr>
+    <div style="background-color:tomato; text-align: center;">
+        <h1 style="text-shadow: 0cap;"><em>Formularios</em></h1>
+    </div>
+    <hr>
+    <div style="background-color:coral; text-align: center;">
+        <br>
+        <a href="anadirForm.html" style="text-decoration: none; color: black;">Implementacion de un formulario</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="Atributos.html" style="text-decoration: none; color: black;">Atributos de un formulario</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="Elementosentrada.html" style="text-decoration: none; color: black;">Elementos de un formulario</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <br>
+        <br>
+    </div> 
+    <hr>
+    <pre style="text-align: center; color: black;">
+        Un elemento es aquel que se usa para realizar varias acciones en un formulario,
+    </pre>
+    <hr>
+    <pre style="text-align: center; color: black;">
+       El primer atributo es: type al cual le daremos un valor text
+    </pre>
+    <hr>
+    <table style="width:100%">
+        <tr>
+            <th style="text-align: center;">Resultado</th>
+            <th>Codigo de implementacion</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                <form action="valor.html" target="_blank">
+                    <label for="primernombre">primer nombre:</label>
+                    <input type="text" id="primernombre" name="primernombre" value=""><br>
+                    <label for="ultimonombre">ultimo nombre:</label>
+                    <input type="text" id="ultimonombre" name="ultimonombre" value=""><br><br>
+                  </form> 
+            </td>
+            <td style="text-align: left;">
+                <pre>
+                    &lt;form action="valor.html" target="_blank"&gt;
+                        &lt;label for="primernombre">primer nombre:&lt;/label&gt;
+                        &lt;input type="text" id="primernombre" name="primernombre" value=""&gt;&lt;br&gt;
+                        &lt;label for="ultimonombre">ultimo nombre:&lt;/label&gt;
+                        &lt;input type="text" id="ultimonombre" name="ultimonombre" value=""&gt;&lt;br&gt;
+                    &lt;/form&gt;
+                </pre> 
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <pre style="text-align: center; color: black;">
+        El segundo atributo es: type al cual le daremos un valor password
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+             <td style="text-align: center;">
+                 <form action="valor.html" target="_blank" method="post">
+                     <label for="primernombre">primer nombre:</label>
+                     <input type="text" id="primernombre" name="primernombre" value=""><br>
+                     <label for="Contraseña">Contraseña:</label>
+                     <input type="password" id="Contraseña" name="Contraseña" value=""><br><br>
+                   </form> 
+             </td>
+             <td style="text-align: left;">
+                 <pre>
+                     &lt;form action="valor.html" target="_blank" method="post""&gt;
+                         &lt;label for="primernombre">primer nombre:&lt;/label&gt;
+                         &lt;input type="text" id="primernombre" name="primernombre" value=""&gt;&lt;br&gt;
+                         &lt;label for="Contraseña">Contraseña:&lt;/label&gt;
+                         &lt;input type="password" id="Contraseña" name="Contraseña" value=""&gt;&lt;br&gt;
+                     &lt;/form&gt;
+                 </pre> 
+             </td>
+         </tr>
+     </table>
+     <hr>
+     <pre>
+        El tercer atributo es: el boton reset, el cual sirve para vaciar los datos de los input
+     </pre>
+     <hr>
+     <table style="width:100%">
+        <tr>
+            <th style="text-align: center;">Resultado</th>
+            <th>Codigo de implementacion</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                <form action="valor.html" target="_blank">
+                    <label for="primernombre">primer nombre:</label>
+                    <input type="text" id="primernombre" name="primernombre" value=""><br>
+                    <label for="ultimonombre">ultimo nombre:</label>
+                    <input type="text" id="ultimonombre" name="ultimonombre" value=""><br><br>
+                    <input type="reset">
+                  </form> 
+            </td>
+            <td style="text-align: left;">
+                <pre>
+                    &lt;form action="valor.html" target="_blank"&gt;
+                        &lt;label for="primernombre">primer nombre:&lt;/label&gt;
+                        &lt;input type="text" id="primernombre" name="primernombre" value=""&gt;&lt;br&gt;
+                        &lt;label for="ultimonombre">ultimo nombre:&lt;/label&gt;
+                        &lt;input type="text" id="ultimonombre" name="ultimonombre" value=""&gt;&lt;br&gt;
+                        &lt;input type="reset"&gt;
+                    &lt;/form&gt;
+                </pre> 
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <pre style="text-align: center; color: black;">
+        El cuarto atributo es: type al cual le daremos un valor de tipo radio
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+             <td style="text-align: center;">
+                <p>¿Cual es tu comida favorita?</p>
+
+                <form>
+                    <input type="radio" id="Hamburguesa" name="favcomi" value="Hamburguesa">
+                    <label for="Hamburguesa">Hamburguesa</label><br>
+                    <input type="radio" id="Pizza" name="favcomi" value="Pizza">
+                    <label for="Pizza">Pizza</label><br>
+                    <input type="radio" id="Tacos" name="favcomi" value="Tacos">
+                    <label for="Tacos">Tacos</label>
+                </form>
+             </td>
+             <td style="text-align: left;">
+                 <pre>
+                    &lt;p&gt;¿Cual es tu comida favorita?&lt;/p&gt;
+                     &lt;form&gt;
+                         &lt;input type="radio" id="Hamburguesa" name="favcomi" value="Hamburguesa"&gt;
+                         &lt;label for="Hamburguesa">Hamburguesa&lt;/label&gt;&lt;br&gt;
+                         &lt;input type="radio" id="Pizza" name="favcomi" value="Pizza"&gt;
+                         &lt;label for="Pizza">Pizza&lt;/label&gt;&lt;br&gt;
+                         &lt;input type="radio" id="Tacos" name="favcomi" value="Tacos"&gt;
+                         &lt;label for="Tacos">Tacos&lt;/label&gt;
+                     &lt;/form&gt;
+                 </pre> 
+             </td>
+         </tr>
+     </table>
+     <hr>
+     <pre style="text-align: center; color: black;">
+        El cuarto atributo es: type al cual le daremos un valor de tipo checkbox
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+             <td style="text-align: center;">
+                <form>
+                    <input type="checkbox" id="Lenguaje1" name="Lenguaje1" value="Java">
+                    <label for="Lenguaje1"> Java</label><br>
+                    <input type="checkbox" id="Lenguaje2" name="Lenguaje2" value="C#">
+                    <label for="Lenguaje2"> c#</label><br>
+                    <input type="checkbox" id="Lenguaje3" name="Lenguaje3" value="Python">
+                    <label for="Lenguaje3"> Python</label>
+                  </form>
+             </td>
+             <td style="text-align: left;">
+                 <pre>
+                     &lt;form&gt;
+                         &lt;input type="checkbox" id="Lenguaje1" name="Lenguaje1" value="Java&gt;
+                         &lt;label for="Lenguaje1"> Java&lt;/label&gt;&lt;br&gt;
+                         &lt;input type="checkbox" id="Lenguaje2" name="Lenguaje2" value="C#"&gt;
+                         &lt;label for="Lenguaje2"> c#&lt;/label&gt;&lt;br&gt;
+                         &lt;input type="checkbox" id="Lenguaje3" name="Lenguaje3" value="Python"&gt;
+                         &lt;label for="Lenguaje3"> Python&gt;
+                     &lt;/form&gt;
+                 </pre> 
+             </td>
+         </tr>
+     </table>
+     <hr>
+     <pre style="text-align: center; color: black;">
+        El quinto atributo es: un botón de tipo de entrada, el caul nos sera util para mostrar un mensaje
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+             <td style="text-align: center;">
+                <input type="button" onclick="alert('Vamos bien')" value="Pulsame">
+             </td>
+             <td style="text-align: left;">
+                 <pre>
+                     &lt;input type="button" onclick="alert('Vamos bien')" value="Pulsame"&gt;
+                 </pre> 
+             </td>
+         </tr>
+     </table>
+     <hr>
+     <pre style="text-align: center; color: black;">
+        El quinto atributo es: Tipo de entrada Fecha
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+             <td style="text-align: center;">
+                <form>
+                    <label for="Cumpleaños">Cumpleaños:</label>
+                    <input type="date" id="Cumpleaños" name="Cumpleaños">
+                  </form>
+             </td>
+             <td style="text-align: left;">
+                 <pre>
+                    &lt;form&gt;
+                        &lt;label for="Cumpleaños">Cumpleaños:&lt;/label&gt;
+                        &lt;input type="date" id="Cumpleaños" name="Cumpleaños"&gt;
+                    &lt;/form&gt;
+                 </pre> 
+             </td>
+         </tr>
+     </table>
+     <hr>
+     <pre style="text-align: center; color: black;">
+        El sexto atributo es: Correo electrónico
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+             <td style="text-align: center;">
+                <form action="valor.html">
+                    <label for="Correo">Ingresa tu correo electrónico:</label>
+                    <input type="email" id="Correo" name="Correo">
+                    <input type="submit" value="Valida">
+                </form>
+             </td>
+             <td style="text-align: left;">
+                 <pre>
+                    &lt;form action="valor.html"&gt;
+                        &lt;label for="Correo">Ingresa tu correo electrónico:&lt;/label&gt;
+                        &lt;input type="email" id="Correo" name="Correo"&gt;
+                        &lt;input type="submit" value="Valida"&gt;
+                    &lt;/form&gt;
+                 </pre> 
+             </td>
+         </tr>
+     </table>
+     <hr>
+     <pre style="text-align: center; color: black;">
+        El septimo atributo es: Imagen de tipo de entrada
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+            <td style="text-align: center;">
+                <form action="valor.html" target="_blank">
+                    <label for="primernombre">primer nombre:</label>
+                    <input type="text" id="primernombre" name="primernombre" value=""><br>
+                    <label for="ultimonombre">ultimo nombre:</label>
+                    <input type="text" id="ultimonombre" name="ultimonombre" value=""><br>
+                    <input type="image" src="../Img/Palomita.jfif" alt="Submit" width="48" height="48">
+                  </form> 
+            </td>
+            <td style="text-align: left;">
+                <pre>
+                    &lt;form action="valor.html" target="_blank"&gt;
+                        &lt;label for="primernombre">primer nombre:&lt;/label&gt;
+                        &lt;input type="text" id="primernombre" name="primernombre" value=""&gt;&lt;br&gt;
+                        &lt;label for="ultimonombre">ultimo nombre:&lt;/label&gt;
+                        &lt;input type="text" id="ultimonombre" name="ultimonombre" value=""&gt;&lt;br&gt;
+                        &lt;input type="image" src="../Img/Palomita.jfif" alt="Submit" width="48" height="48"&gt;
+                    &lt;/form&gt;
+                </pre> 
+            </td>
+         </tr>
+     </table>
+     <hr>
+     <pre style="text-align: center; color: black;">
+        El octavo atributo es: Archivo de tipo de entrada
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+            <td style="text-align: center;">
+                <p>Selecciona un archivo:</p>
+                <form action="Elementos.html">
+                    <label for="archivo">Seleccione un archivo</label>
+                    <input type="file" id="archivo" name="archivo">
+                </form>
+            </td>
+            <td style="text-align: left;">
+                <pre>
+                    &lt;p&gt;Selecciona un archivo&lt;/p&gt;
+                    &lt;form action="Elementos.html"&gt;
+                        &lt;label for="archivo">Seleccione un archivo&lt;/label&gt;
+                        &lt;input type="file" id="archivo" name="archivo"&gt;
+                    &lt;/form&gt;
+                </pre> 
+            </td>
+         </tr>
+     </table>
+     <hr>
+     <pre style="text-align: center; color: black;">
+        El noveno atributo es: Número de tipo de entrada
+     </pre>
+     <hr>
+     <table style="width:100%">
+         <tr>
+             <th style="text-align: center;">Resultado</th>
+             <th>Codigo de implementacion</th>
+         </tr>
+         <tr>
+            <td style="text-align: center;">
+                <form action="Elementosentrada.html">
+                    <label for="Cantidad">Selecciona una cantidad del 1 al 5:</label>
+                    <input type="number" id="Cantidad" name="Cantidad" min="1" max="5">
+                  </form>
+            </td>
+            <td style="text-align: left;">
+                <pre>
+                    &lt;form action="Elementosentrada.html"&gt;
+                        &lt;label for="Cantidad">Selecciona una cantidad del 1 al 5:&lt;/label&gt;
+                        &lt;input type="number" id="Cantidad" name="Cantidad" min="1" max="5"&gt;
+                    &lt;/form&gt;
+                </pre> 
+            </td>
+         </tr>
+     </table>
+     <hr>
+</body>
+</html>
